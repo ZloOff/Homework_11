@@ -1,5 +1,17 @@
 .body {
-    min-width: 414px;
+    min-width: 414px;}
+
+.header_menu {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 18px 20px;}
+
+@media (min-width: 428px) and (max-width: 992px) {
+.Hamburger {display: none;}
+.basket {display: none;}
+.header_logo {
+
 }
 
-@media (min-width: 0px) and (max-width: 992px) {}
+}
