@@ -3,15 +3,37 @@
 
 .header_menu {
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 align-items: center;
 padding: 18px 20px;}
+.header_menu_decstop {
+display: none;}
 
-@media (min-width: 428px) and (max-width: 992px) {
+@media (min-width: 1000px) and (max-width: 1920px) {
 .Hamburger {display: none;}
 .basket {display: none;}
+.header_menu {
+display: block;}
 .header_logo {
-
-}
-
-}
+text-align: center;}
+.header_menu_decstop {
+display: flex;
+justify-content: space-evenly;
+a {
+text-decoration: none;
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color: #0A0A0A;}
+.headrer_a {color: #979797;}}
+.menu_item {
+display: flex;
+gap: 40px;}
+.header_nav {
+display: flex;
+gap: 20px;}}
