@@ -37,3 +37,75 @@ gap: 40px;}
 .header_nav {
 display: flex;
 gap: 20px;}}
+
+.new {
+display: flex;
+flex-direction: column;
+align-items: center;
+.tile {
+margin-top: -50px; 
+width: 388px;
+background-color:  #666A6F;;
+h2 {
+padding:10px 20px 10px 20px;
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #FFFFFF;}
+p {
+padding: 10px 20px 10px 20px;
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #ECECEC;}
+button {
+cursor: pointer;
+margin: 10px 180px 30px 20px;
+background-color: #FFFFFF;
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: uppercase;
+color: #040404;
+border: none;
+padding: 14px 40px 14px 40px;}}}
+
+@media (min-width: 1000px) and (max-width: 1920px) {
+.new {
+margin-top: 30px;
+img {
+display: none;}
+background-image: url(../img/background_chair.jpg);
+max-width: 1920px;
+height: 676px;
+background-repeat: no-repeat;
+.tile {
+width: 600px;
+height: 400px;
+position: absolute;
+left: 700px;
+top: 220px;
+h2 {
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;}
+p {
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;}
+
+}
+
+}
+}
