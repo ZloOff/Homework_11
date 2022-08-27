@@ -357,4 +357,9 @@ body {
   .desktop .item2_last {
     margin-top: 52px;
   }
+}
+@media (min-width: 0px) and (max-width: 1000px) {
+  .desktop {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
