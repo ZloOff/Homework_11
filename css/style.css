@@ -183,6 +183,10 @@ body {
   color: #F5F5F5;
 }
 
+.container {
+  margin-bottom: 250px;
+}
+
 .swiper {
   width: 100%;
   height: 100%;
@@ -254,6 +258,7 @@ body {
     margin-bottom: 30px;
   }
   .desktop {
+    margin-bottom: 150px;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -361,5 +366,69 @@ body {
 @media (min-width: 0px) and (max-width: 1000px) {
   .desktop {
     display: none;
+  }
+}
+.vision {
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #fdfafa;
+  width: 388px;
+  height: 369px;
+}
+.vision h2 {
+  padding: 20px 270px 10px 20px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  color: #111010;
+}
+.vision p {
+  padding: 10px 20px 20px 20px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #616161;
+}
+.vision button {
+  margin: 20px 180px 20px 20px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 180px;
+  height: 45px;
+  cursor: pointer;
+  background-color: #111010;
+  color: #FFFFFF;
+  transition: 0.9s;
+  letter-spacing: 3px;
+}
+.vision button:hover {
+  background-color: #f51010;
+  border: none;
+}
+.vision img {
+  width: 428px;
+  height: 579px;
+}
+
+@media (min-width: 1000px) and (max-width: 1920px) {
+  .vision_flex {
+    display: flex;
+  }
+  .vision_flex img {
+    width: 1301px;
+    height: 526px;
   }
 }/*# sourceMappingURL=style.css.map */
