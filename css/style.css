@@ -373,7 +373,7 @@ body {
   margin-top: -200px;
   margin-left: 20px;
   margin-right: 20px;
-  background-color: #fdfafa;
+  background-color: #e9e3e3;
   width: 388px;
   height: 369px;
 }
@@ -427,8 +427,171 @@ body {
   .vision_flex {
     display: flex;
   }
+  .vision_flex .vision {
+    padding: 20px;
+    width: 708px;
+    height: 402px;
+    margin-top: 100px;
+    margin-left: -5px;
+    margin-right: 20px;
+  }
+  .vision_flex .img_floor {
+    margin-left: auto;
+  }
   .vision_flex img {
     width: 1301px;
     height: 526px;
+  }
+}
+.Designers h2 {
+  margin-top: 20px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #111010;
+}
+.Designers p {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #616161;
+  margin-bottom: 20px;
+}
+
+.Designers_img {
+  display: none;
+}
+
+@media (min-width: 1000px) and (max-width: 1920px) {
+  .Designers {
+    display: none;
+  }
+  .Designers1 {
+    position: absolute;
+    margin-left: 10px;
+    padding-top: 120px;
+    width: 610px;
+  }
+  .Designers1 h2 {
+    margin-top: 20px;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #111010;
+  }
+  .Designers1 p {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    color: #616161;
+    margin-bottom: 20px;
+  }
+  .Designers_img {
+    margin-top: 50px;
+    display: flex;
+  }
+  .Designers_img picture {
+    margin: auto;
+  }
+}
+.Dubai {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Dubai h2 {
+  margin-top: 20px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #111010;
+}
+.Dubai p {
+  margin-top: 10px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgba(17, 16, 16, 0.5);
+}
+.Dubai button {
+  display: block;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  letter-spacing: 3px;
+  width: 153px;
+  height: 45px;
+  margin-top: 10px;
+  background: #111010;
+  border: none;
+  transition: 0.3s;
+}
+.Dubai button:hover {
+  background-color: #073874;
+}
+
+.wrapper {
+  display: none;
+}
+
+@media (min-width: 1000px) and (max-width: 1920px) {
+  .wrapper {
+    display: flex;
+    gap: 5px;
+  }
+  .wrapper img {
+    width: 333px;
+    height: 333px;
+  }
+  .wrapper h3 {
+    margin-top: 20px;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #111010;
+  }
+  .wrapper p {
+    margin-top: 10px;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #616161;
   }
 }/*# sourceMappingURL=style.css.map */
