@@ -1,5 +1,6 @@
 .body {
   min-width: 414px;
+  margin: 0 auto;
 }
 
 .header_menu {
@@ -154,8 +155,7 @@
 }
 .Products h2:after {
   content: "";
-  background-color: transparent;
-  border-bottom: #141313 solid 5px;
+  border-bottom: solid 5px #141313;
 }
 .Products p {
   font-family: "Proxima Nova";
@@ -194,13 +194,17 @@ body {
   align-items: center;
 }
 
+.img_s {
+  min-width: 454px;
+  max-height: 274px;
+}
+
 .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 42px;
 }
 
 .Custom_bullet {
@@ -214,4 +218,143 @@ body {
 }
 .Custom_bullet.swiper-pagination_bullet_active {
   background: #D5DCEE;
+}
+
+.castom {
+  margin: auto;
+  width: 361px;
+  height: 93px;
+  background-color: #111010;
+  border: 1px solid #FFFFFF;
+}
+.castom h2 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.castom p {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  text-align: center;
+  color: #B4B4B4;
+}
+
+@media (min-width: 1000px) and (max-width: 1920px) {
+  .container {
+    display: none;
+  }
+  .Products {
+    margin-bottom: 30px;
+  }
+  .desktop {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .desktop .img_item {
+    width: 558px;
+    height: 618px;
+  }
+  .desktop .item {
+    padding-top: 25px;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 17px;
+    width: 520px;
+    height: 110px;
+    background-color: #111010;
+    border: 1px solid #FFFFFF;
+  }
+  .desktop .item h2 {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .desktop .item p {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #B4B4B4;
+  }
+  .desktop .img_item1 {
+    width: 330px;
+    height: 618px;
+  }
+  .desktop .item1 {
+    padding-top: 25px;
+    margin-left: 22px;
+    position: absolute;
+    margin-top: -80px;
+    width: 285px;
+    height: 110px;
+    background-color: #111010;
+    border: 1px solid #FFFFFF;
+  }
+  .desktop .item1 h2 {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .desktop .item1 p {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #B4B4B4;
+  }
+  .desktop .img_item2 {
+    width: 420px;
+    height: 280px;
+  }
+  .desktop .item2 {
+    padding-top: 25px;
+    margin-left: 25px;
+    position: absolute;
+    margin-top: -80px;
+    background-color: #111010;
+    border: 1px solid #FFFFFF;
+    width: 370px;
+    height: 110px;
+  }
+  .desktop .item2 h2 {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .desktop .item2 p {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #B4B4B4;
+  }
+  .desktop .item2_last {
+    margin-top: 52px;
+  }
 }/*# sourceMappingURL=style.css.map */
