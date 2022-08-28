@@ -681,5 +681,26 @@ color: #FFFFFF;
   }
 
   @media (min-width: 1000px) and (max-width: 1920px) {
-    
+  .footer_wrapper {
+  display: none;}
+  
+.footer_dekstop {
+height: 304px;
+background-color: #111010;
+
+
+.footer_p {
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+line-height: 9px;
+display: flex;
+align-items: center;
+letter-spacing: 0.183333px;
+color: #FFFFFF;}
+
+  }
+
+
   }
