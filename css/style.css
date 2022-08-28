@@ -774,11 +774,18 @@ body {
   padding-bottom: 20px;
 }
 
+.footer_dekstop {
+  display: none;
+}
+
 @media (min-width: 1000px) and (max-width: 1920px) {
   .footer_wrapper {
     display: none;
   }
   .footer_dekstop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 304px;
     background-color: #111010;
   }
@@ -792,5 +799,25 @@ body {
     align-items: center;
     letter-spacing: 0.183333px;
     color: #FFFFFF;
+  }
+  .footer_item h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+  .footer_item a {
+    text-decoration: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */
