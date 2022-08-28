@@ -594,4 +594,109 @@ body {
     text-align: center;
     color: #616161;
   }
+}
+.Showrooms {
+  margin-left: 17px;
+  margin-top: -200px;
+  position: absolute;
+  width: 388px;
+  height: 308px;
+  background: #b6b4b4;
+}
+.Showrooms h2 {
+  padding: 20px 140px 20px 20px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.Showrooms p {
+  padding: 10px 20px 10px 20px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #616161;
+}
+.Showrooms button {
+  margin-left: 20px;
+  width: 180px;
+  height: 45px;
+  cursor: pointer;
+  background-color: #111010;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  letter-spacing: 3px;
+  transition: 0.9s;
+}
+.Showrooms button:hover {
+  background-color: red;
+}
+
+@media (min-width: 1000px) and (max-width: 1920px) {
+  .Showrooms_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Showrooms_flex img {
+    margin-top: 100px;
+    width: 817px;
+    height: 649px;
+  }
+  .Showrooms_flex .Showrooms {
+    margin-left: 800px;
+    margin-top: 250px;
+    max-width: 692px;
+    max-height: 522px;
+  }
+}
+.Tile_Collections {
+  margin-top: 50px;
+}
+
+.Tile h2 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #111010;
+}
+.Tile p {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #616161;
+}
+
+.Collections1 {
+  display: flex;
+  margin: auto;
+  width: 1140px;
+}
+.Collections1 img {
+  width: 310px;
+}
+
+@media (min-width: 0px) and (max-width: 1000px) {
+  .Tile_Collections {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
